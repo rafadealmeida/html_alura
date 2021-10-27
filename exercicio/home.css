@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.banner{
+    width: 100%;
+    border-radius: 10px;
+}
+.home{
+    text-align: center;
+    padding: 50px;
+    background-color: #cccccc;
+    margin: 5px 5px;
+    border-radius: 10px;
+    font: initial;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+.home h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+}
+.barbearia{
+    font-weight: bold;
+}
+.destaque{
+    font-size: 20px;
+    font-style: italic;
+}
+.destaque strong{
+    color: red;
+    font-weight: bold;
+    text-shadow:1px 1px 3px rgba(88, 0, 0, 0.397);
+}
+.titulo-beneficio{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+    }
+.beneficios ul{
+    font-style: italic;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-right: 15%;
+    padding-left: 15px;
+}
+.beneficios-foto{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    margin-bottom: 50px;
+}

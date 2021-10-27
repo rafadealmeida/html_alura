@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+   
+   
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background-color: gray;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding: 30px;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+}
+p{
+    text-align: center;
+}
+.destaque{
+    font-size: 20px;
+}
+em strong{
+    color: red;
+}
+.lista{
+    font-style: italic;
+}
+.titulo-center{
+    text-align: center;
+}
+.beneficios{
+    background-color: #ffffff;  
+    padding: 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagembeneficios{
+    width: 50%;
+}

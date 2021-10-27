@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo-ex.css">
+    <link rel="stylesheet" href="contato2.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h1><img src="imagens/logo.png" alt="Logo da Barbearia"></h1>
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="index-ex.html">Home</a></li>
+                    <li><a href="produtos-ex.html">Produtos</a></li>
+                    <li><a href="contato copy.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <main>
+        <form action="">
+            <label for="name">Digite seu Nome Completo</label>
+            <input class="input-padrao" type="text" id="name" required>
+
+            <label for="email">Digite seu email</label>
+            <input class="input-padrao" type="email" id="email" required placeholder="email@dominio.com">
+
+            <label for="telefone">Digite seu telefone</label>
+            <input class="input-padrao" type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx" >
+
+            <label for="mensagem">Digite sua mensagem</label>
+            <textarea class="input-padrao" id="mensagem" cols="30" rows="10" required></textarea>
+        
+        
+
+        <fieldset class="check">
+            <legend>Como prefere nosso contato?</legend>
+            <label for="email-check"><input type="radio" name="opcoes" id="email-check">Email</label>
+            <label for="telefone-check"><input type="radio" name="opcoes" id="telefone-check">Tefefone</label>
+            <label for="whatsapp"><input type="radio" name="opcoes" id="whatsapp" checked >Whatsapp</label>
+        </fieldset>
+                                    <!-- a div propria para formulários e a taga <fieldset></fieldset> -->
+
+        <fieldset class="select">
+            <legend>
+                Qual horário preefre ser atendido?
+            </legend>
+            <select name="horario-contato" id="periodo-dia">
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+        </fieldset>
+   
+         <div class="checkbox">
+            <label for="novidades-email"><input type="checkbox" name="" id="novidades-email" checked>Gostaria de receber nossas 
+            novidades por email?</label>
+         </div>
+   
+         <table>
+             <thead>
+                 <tr>
+                     <th>Dia</th>
+                     <th>Horário</th>
+                 </tr>
+             </thead>
+             <tr>
+                 <td>Segunda-Feira</td>
+                 <td>08h ~ 20h</td>
+             </tr>
+             <tr>
+                 <td>Quarta-Feira</td>
+                 <td>08h ~ 20h</td>
+             </tr>
+             <tr>
+                 <td>Sexta-Feira</td>
+                 <td>08h ~ 20h</td>
+             </tr>
+             
+         </table>
+   
+        <input type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+    
+    
+    
+    </main> 
+    
+    <footer class="copy">
+        <img src="imagens/logo-branco.png" alt="Logo da Barbearia">
+        <p >&copy;Copyright Barbearia Alura</p>
+    </footer>
+    
+</body>
+</html>
